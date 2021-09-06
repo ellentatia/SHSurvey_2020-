@@ -29,9 +29,9 @@ server = app.server
 
 auth = dash_auth.BasicAuth(
     app,
-    {'ipbes':'tsudata',
-      'joy': 'science',
-     'aidin': 'head'}
+    {'ipbes':"",
+      'joy': "",
+     'aidin': ""}
 )
 
 #-----------------------------------------------------------------
